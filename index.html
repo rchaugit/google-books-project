@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Books API</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="./searchForm/searchForm.css" />
+  <link rel="stylesheet" href="./Dispbox/Dispbox.css" />
+  <link rel="stylesheet" href="./Dispgrid/Dispgrid.css" />
+
+</head>
+<body>
+
+  <form id="searchForm">
+    <p id="header">Search for a book through Google Books API: </p>
+    <input type="text" id="input">
+    <input type="submit" id="search">
+  </form>
+  
+  <div id="disGrid"></div>
+
+  <script type="module" src="./searchForm/api.js"></script>
+  <script type="module" src="./searchForm/dom.js"></script>
+</body>
+</html>

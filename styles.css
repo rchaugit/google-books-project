@@ -1,0 +1,9 @@
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin-left: 1%;
+  background-image: linear-gradient(to bottom right, whitesmoke, #2DA8D8FF, #696667FF);
+} 
